@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1214E4D2A11E76A003CDBE7 /* KeyboardHooker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1214E4C2A11E76A003CDBE7 /* KeyboardHooker.swift */; };
+		E1214E4F2A11EE13003CDBE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1214E4E2A11EE13003CDBE7 /* AppDelegate.swift */; };
+		E1214E512A1200C8003CDBE7 /* AccessibilityAdmiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1214E502A1200C8003CDBE7 /* AccessibilityAdmiter.swift */; };
+		E12D700C2A1DB197005EDA1B /* CONSTANTS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12D700B2A1DB197005EDA1B /* CONSTANTS.swift */; };
+		E1753E712A14ACE300902BF6 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = E1753E702A14ACE300902BF6 /* Collections */; };
+		E1753E732A14ACE300902BF6 /* DequeModule in Frameworks */ = {isa = PBXBuildFile; productRef = E1753E722A14ACE300902BF6 /* DequeModule */; };
+		E1753E752A14ACE300902BF6 /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = E1753E742A14ACE300902BF6 /* OrderedCollections */; };
+		E19548FB2A12FE5A00795724 /* KeySettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19548FA2A12FE5A00795724 /* KeySettingView.swift */; };
+		E19548FD2A1308E600795724 /* KeyCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19548FC2A1308E600795724 /* KeyCodes.swift */; };
+		E1EE3F7129F8DA5D0079CCA7 /* KeyRemaproApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EE3F7029F8DA5D0079CCA7 /* KeyRemaproApp.swift */; };
+		E1EE3F7529F8DA5E0079CCA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1EE3F7429F8DA5E0079CCA7 /* Assets.xcassets */; };
+		E1EE3F7829F8DA5E0079CCA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1EE3F7729F8DA5E0079CCA7 /* Preview Assets.xcassets */; };
+		E1EE3F8329F8DA5F0079CCA7 /* KeyRemaproTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EE3F8229F8DA5F0079CCA7 /* KeyRemaproTests.swift */; };
+		E1EE3F8D29F8DA5F0079CCA7 /* KeyRemaproUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EE3F8C29F8DA5F0079CCA7 /* KeyRemaproUITests.swift */; };
+		E1EE3F8F29F8DA5F0079CCA7 /* KeyRemaproUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EE3F8E29F8DA5F0079CCA7 /* KeyRemaproUITestsLaunchTests.swift */; };
+		E1EE3F9C29F8DBE50079CCA7 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EE3F9B29F8DBE50079CCA7 /* MenuView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1EE3F7F29F8DA5F0079CCA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1EE3F6529F8DA5D0079CCA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1EE3F6C29F8DA5D0079CCA7;
+			remoteInfo = KeyRemapro;
+		};
+		E1EE3F8929F8DA5F0079CCA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1EE3F6529F8DA5D0079CCA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1EE3F6C29F8DA5D0079CCA7;
+			remoteInfo = KeyRemapro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1214E4C2A11E76A003CDBE7 /* KeyboardHooker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHooker.swift; sourceTree = "<group>"; };
+		E1214E4E2A11EE13003CDBE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1214E502A1200C8003CDBE7 /* AccessibilityAdmiter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityAdmiter.swift; sourceTree = "<group>"; };
+		E12D700B2A1DB197005EDA1B /* CONSTANTS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CONSTANTS.swift; sourceTree = "<group>"; };
+		E19548FA2A12FE5A00795724 /* KeySettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeySettingView.swift; sourceTree = "<group>"; };
+		E19548FC2A1308E600795724 /* KeyCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCodes.swift; sourceTree = "<group>"; };
+		E1ED59932A25CFC4002C5C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E1EE3F6D29F8DA5D0079CCA7 /* KeyRemapro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyRemapro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1EE3F7029F8DA5D0079CCA7 /* KeyRemaproApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyRemaproApp.swift; sourceTree = "<group>"; };
+		E1EE3F7429F8DA5E0079CCA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1EE3F7729F8DA5E0079CCA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E1EE3F7929F8DA5E0079CCA7 /* KeyRemapro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeyRemapro.entitlements; sourceTree = "<group>"; };
+		E1EE3F7E29F8DA5F0079CCA7 /* KeyRemaproTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyRemaproTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1EE3F8229F8DA5F0079CCA7 /* KeyRemaproTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyRemaproTests.swift; sourceTree = "<group>"; };
+		E1EE3F8829F8DA5F0079CCA7 /* KeyRemaproUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyRemaproUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1EE3F8C29F8DA5F0079CCA7 /* KeyRemaproUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyRemaproUITests.swift; sourceTree = "<group>"; };
+		E1EE3F8E29F8DA5F0079CCA7 /* KeyRemaproUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyRemaproUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E1EE3F9B29F8DBE50079CCA7 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1EE3F6A29F8DA5D0079CCA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1753E712A14ACE300902BF6 /* Collections in Frameworks */,
+				E1753E732A14ACE300902BF6 /* DequeModule in Frameworks */,
+				E1753E752A14ACE300902BF6 /* OrderedCollections in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1EE3F7B29F8DA5F0079CCA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1EE3F8529F8DA5F0079CCA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1EE3F6429F8DA5D0079CCA7 = {
+			isa = PBXGroup;
+			children = (
+				E1EE3F6F29F8DA5D0079CCA7 /* KeyRemapro */,
+				E1EE3F8129F8DA5F0079CCA7 /* KeyRemaproTests */,
+				E1EE3F8B29F8DA5F0079CCA7 /* KeyRemaproUITests */,
+				E1EE3F6E29F8DA5D0079CCA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1EE3F6E29F8DA5D0079CCA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1EE3F6D29F8DA5D0079CCA7 /* KeyRemapro.app */,
+				E1EE3F7E29F8DA5F0079CCA7 /* KeyRemaproTests.xctest */,
+				E1EE3F8829F8DA5F0079CCA7 /* KeyRemaproUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1EE3F6F29F8DA5D0079CCA7 /* KeyRemapro */ = {
+			isa = PBXGroup;
+			children = (
+				E1ED59932A25CFC4002C5C64 /* Info.plist */,
+				E1214E4E2A11EE13003CDBE7 /* AppDelegate.swift */,
+				E1EE3F7029F8DA5D0079CCA7 /* KeyRemaproApp.swift */,
+				E1EE3F7429F8DA5E0079CCA7 /* Assets.xcassets */,
+				E1EE3F7929F8DA5E0079CCA7 /* KeyRemapro.entitlements */,
+				E1EE3F7629F8DA5E0079CCA7 /* Preview Content */,
+				E1EE3F9B29F8DBE50079CCA7 /* MenuView.swift */,
+				E1214E4C2A11E76A003CDBE7 /* KeyboardHooker.swift */,
+				E1214E502A1200C8003CDBE7 /* AccessibilityAdmiter.swift */,
+				E19548FA2A12FE5A00795724 /* KeySettingView.swift */,
+				E19548FC2A1308E600795724 /* KeyCodes.swift */,
+				E12D700B2A1DB197005EDA1B /* CONSTANTS.swift */,
+			);
+			path = KeyRemapro;
+			sourceTree = "<group>";
+		};
+		E1EE3F7629F8DA5E0079CCA7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E1EE3F7729F8DA5E0079CCA7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E1EE3F8129F8DA5F0079CCA7 /* KeyRemaproTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1EE3F8229F8DA5F0079CCA7 /* KeyRemaproTests.swift */,
+			);
+			path = KeyRemaproTests;
+			sourceTree = "<group>";
+		};
+		E1EE3F8B29F8DA5F0079CCA7 /* KeyRemaproUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1EE3F8C29F8DA5F0079CCA7 /* KeyRemaproUITests.swift */,
+				E1EE3F8E29F8DA5F0079CCA7 /* KeyRemaproUITestsLaunchTests.swift */,
+			);
+			path = KeyRemaproUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1EE3F6C29F8DA5D0079CCA7 /* KeyRemapro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1EE3F9229F8DA5F0079CCA7 /* Build configuration list for PBXNativeTarget "KeyRemapro" */;
+			buildPhases = (
+				E1EE3F6929F8DA5D0079CCA7 /* Sources */,
+				E1EE3F6A29F8DA5D0079CCA7 /* Frameworks */,
+				E1EE3F6B29F8DA5D0079CCA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyRemapro;
+			packageProductDependencies = (
+				E1753E702A14ACE300902BF6 /* Collections */,
+				E1753E722A14ACE300902BF6 /* DequeModule */,
+				E1753E742A14ACE300902BF6 /* OrderedCollections */,
+			);
+			productName = KeyRemapro;
+			productReference = E1EE3F6D29F8DA5D0079CCA7 /* KeyRemapro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1EE3F7D29F8DA5F0079CCA7 /* KeyRemaproTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1EE3F9529F8DA5F0079CCA7 /* Build configuration list for PBXNativeTarget "KeyRemaproTests" */;
+			buildPhases = (
+				E1EE3F7A29F8DA5F0079CCA7 /* Sources */,
+				E1EE3F7B29F8DA5F0079CCA7 /* Frameworks */,
+				E1EE3F7C29F8DA5F0079CCA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1EE3F8029F8DA5F0079CCA7 /* PBXTargetDependency */,
+			);
+			name = KeyRemaproTests;
+			productName = KeyRemaproTests;
+			productReference = E1EE3F7E29F8DA5F0079CCA7 /* KeyRemaproTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1EE3F8729F8DA5F0079CCA7 /* KeyRemaproUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1EE3F9829F8DA5F0079CCA7 /* Build configuration list for PBXNativeTarget "KeyRemaproUITests" */;
+			buildPhases = (
+				E1EE3F8429F8DA5F0079CCA7 /* Sources */,
+				E1EE3F8529F8DA5F0079CCA7 /* Frameworks */,
+				E1EE3F8629F8DA5F0079CCA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1EE3F8A29F8DA5F0079CCA7 /* PBXTargetDependency */,
+			);
+			name = KeyRemaproUITests;
+			productName = KeyRemaproUITests;
+			productReference = E1EE3F8829F8DA5F0079CCA7 /* KeyRemaproUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1EE3F6529F8DA5D0079CCA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E1EE3F6C29F8DA5D0079CCA7 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					E1EE3F7D29F8DA5F0079CCA7 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = E1EE3F6C29F8DA5D0079CCA7;
+					};
+					E1EE3F8729F8DA5F0079CCA7 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = E1EE3F6C29F8DA5D0079CCA7;
+					};
+				};
+			};
+			buildConfigurationList = E1EE3F6829F8DA5D0079CCA7 /* Build configuration list for PBXProject "KeyRemapro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1EE3F6429F8DA5D0079CCA7;
+			packageReferences = (
+				E1753E6F2A14ACE300902BF6 /* XCRemoteSwiftPackageReference "swift-collections" */,
+			);
+			productRefGroup = E1EE3F6E29F8DA5D0079CCA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1EE3F6C29F8DA5D0079CCA7 /* KeyRemapro */,
+				E1EE3F7D29F8DA5F0079CCA7 /* KeyRemaproTests */,
+				E1EE3F8729F8DA5F0079CCA7 /* KeyRemaproUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1EE3F6B29F8DA5D0079CCA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1EE3F7829F8DA5E0079CCA7 /* Preview Assets.xcassets in Resources */,
+				E1EE3F7529F8DA5E0079CCA7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1EE3F7C29F8DA5F0079CCA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1EE3F8629F8DA5F0079CCA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1EE3F6929F8DA5D0079CCA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1214E512A1200C8003CDBE7 /* AccessibilityAdmiter.swift in Sources */,
+				E19548FB2A12FE5A00795724 /* KeySettingView.swift in Sources */,
+				E1EE3F9C29F8DBE50079CCA7 /* MenuView.swift in Sources */,
+				E19548FD2A1308E600795724 /* KeyCodes.swift in Sources */,
+				E1EE3F7129F8DA5D0079CCA7 /* KeyRemaproApp.swift in Sources */,
+				E1214E4F2A11EE13003CDBE7 /* AppDelegate.swift in Sources */,
+				E1214E4D2A11E76A003CDBE7 /* KeyboardHooker.swift in Sources */,
+				E12D700C2A1DB197005EDA1B /* CONSTANTS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1EE3F7A29F8DA5F0079CCA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1EE3F8329F8DA5F0079CCA7 /* KeyRemaproTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1EE3F8429F8DA5F0079CCA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1EE3F8D29F8DA5F0079CCA7 /* KeyRemaproUITests.swift in Sources */,
+				E1EE3F8F29F8DA5F0079CCA7 /* KeyRemaproUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1EE3F8029F8DA5F0079CCA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1EE3F6C29F8DA5D0079CCA7 /* KeyRemapro */;
+			targetProxy = E1EE3F7F29F8DA5F0079CCA7 /* PBXContainerItemProxy */;
+		};
+		E1EE3F8A29F8DA5F0079CCA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1EE3F6C29F8DA5D0079CCA7 /* KeyRemapro */;
+			targetProxy = E1EE3F8929F8DA5F0079CCA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E1EE3F9029F8DA5F0079CCA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1EE3F9129F8DA5F0079CCA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E1EE3F9329F8DA5F0079CCA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KeyRemapro/KeyRemapro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KeyRemapro/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KeyRemapro/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tatsuki-Yamada.KeyRemapro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E1EE3F9429F8DA5F0079CCA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KeyRemapro/KeyRemapro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KeyRemapro/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KeyRemapro/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tatsuki-Yamada.KeyRemapro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E1EE3F9629F8DA5F0079CCA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tatsuki-Yamada.KeyRemaproTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyRemapro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KeyRemapro";
+			};
+			name = Debug;
+		};
+		E1EE3F9729F8DA5F0079CCA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tatsuki-Yamada.KeyRemaproTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyRemapro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KeyRemapro";
+			};
+			name = Release;
+		};
+		E1EE3F9929F8DA5F0079CCA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tatsuki-Yamada.KeyRemaproUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = KeyRemapro;
+			};
+			name = Debug;
+		};
+		E1EE3F9A29F8DA5F0079CCA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tatsuki-Yamada.KeyRemaproUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = KeyRemapro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1EE3F6829F8DA5D0079CCA7 /* Build configuration list for PBXProject "KeyRemapro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1EE3F9029F8DA5F0079CCA7 /* Debug */,
+				E1EE3F9129F8DA5F0079CCA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1EE3F9229F8DA5F0079CCA7 /* Build configuration list for PBXNativeTarget "KeyRemapro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1EE3F9329F8DA5F0079CCA7 /* Debug */,
+				E1EE3F9429F8DA5F0079CCA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1EE3F9529F8DA5F0079CCA7 /* Build configuration list for PBXNativeTarget "KeyRemaproTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1EE3F9629F8DA5F0079CCA7 /* Debug */,
+				E1EE3F9729F8DA5F0079CCA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1EE3F9829F8DA5F0079CCA7 /* Build configuration list for PBXNativeTarget "KeyRemaproUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1EE3F9929F8DA5F0079CCA7 /* Debug */,
+				E1EE3F9A29F8DA5F0079CCA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E1753E6F2A14ACE300902BF6 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E1753E702A14ACE300902BF6 /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1753E6F2A14ACE300902BF6 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+		E1753E722A14ACE300902BF6 /* DequeModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1753E6F2A14ACE300902BF6 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = DequeModule;
+		};
+		E1753E742A14ACE300902BF6 /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1753E6F2A14ACE300902BF6 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E1EE3F6529F8DA5D0079CCA7 /* Project object */;
+}
